@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
                 ac = bytes[operand * 2 + 4];
                 break;
             case ADD:
-                ac += bytes[operand * 2 + 4];''
+                ac += bytes[operand * 2 + 4];
                 break;
             case NOT:
                 ac = ~ac;
