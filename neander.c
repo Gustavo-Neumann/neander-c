@@ -113,6 +113,6 @@ int main(int argc, char const *argv[]) {
 
     print_memory(&neander);
 
-    printf("FIM!")
+    printf("Finished!")
     return run(&neander);
 }
