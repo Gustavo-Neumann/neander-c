@@ -84,10 +84,10 @@ int run(Neander *neander) {
         }
 
         neander->pc += 4;
-        print_memory(neander);
     }
 
     print_memory(neander);
+
     return 0;
 }
 
@@ -113,6 +113,5 @@ int main(int argc, char const *argv[]) {
 
     print_memory(&neander);
 
-    printf("Finished!")
     return run(&neander);
 }
